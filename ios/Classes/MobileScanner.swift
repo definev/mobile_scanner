@@ -221,7 +221,7 @@ public class MobileScanner: NSObject, AVCaptureVideoDataOutputSampleBufferDelega
                     MobileScannerStartParameters(
                         width: Double(dimensions.height),
                         height: Double(dimensions.width),
-                        hasTorch: self.device.hasTorch,
+                        hasTorch: true,
                         textureId: self.textureId
                     )
                 )
